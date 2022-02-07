@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'recipe-master';
+  loadedFeature : string = 'recipe';  //default
+
+  loadFeature(feature : string){
+    this.loadedFeature = feature;
+  }
 }
