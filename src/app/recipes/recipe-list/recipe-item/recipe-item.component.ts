@@ -16,7 +16,7 @@ export class RecipeItemComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  //change made in feature x child 1
+  //test1
   onRecipeItemSelected(index : number){
     this.recipeItemSelected.emit(index);
   }
